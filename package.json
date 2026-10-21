@@ -1,0 +1,14 @@
+{
+  "name": "shamcash-mcp-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stateless MCP bridge to allow-listed ShamCash REST API routes",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "check": "node --check server/index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
